@@ -38,10 +38,10 @@ const token = client.config.token
 
 // Initializing the project
 require("./handler")(client);
-  
+require('dotenv').config()
 
 client.on('ready', async () => {
   console.log(`${client.user.tag} is now Onlone! Prefix: ${client.config.prefix}`.bgGreen);
 });
 
-client.login(client.config.token);
+client.login(client.config.token || process.env.token);
