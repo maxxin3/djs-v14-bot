@@ -2,7 +2,7 @@ const { Collection } = require('discord.js');
 const Timeout = new Collection();
 const ms = require('ms')
 const client = require("../index");
-const { OWNER_ID } = require("../config.json")
+const { OWNER_ID } = require("../config.js")
 
 client.on("messageCreate", async (message) => {
     if (
