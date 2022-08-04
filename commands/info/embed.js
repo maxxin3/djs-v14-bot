@@ -5,6 +5,8 @@ module.exports = {
     name: "embed",
     description: "embeds",
     aliases: ["em"],
+    userPerms: [],
+    botPerms: [],
     run: async (client, message, args) => {
     ////
     const help = new EmbedBuilder()
