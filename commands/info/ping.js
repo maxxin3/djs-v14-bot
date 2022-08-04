@@ -4,6 +4,8 @@ module.exports = {
     name: "ping",
     description: "Check Bot's Ping",
     aliases: ["ping"],
+    userPerms: [],
+    botPerms: [],
     run: async (client, message, args) => {
     ////
 
