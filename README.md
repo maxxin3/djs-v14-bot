@@ -142,4 +142,4 @@ If consider using this Template, make sure to credit me!
 
 #### Profile
 
-<img align="left" width="100%" style="margin: 0 10px 0 0;" alt=" " src="https://discord.c99.nl/widget/theme-2/784649693363306518.png">
+<img align="left" width="100%" style="margin: 0 10px 0 0;" alt=" " src="https://discord.c99.nl/widget/theme-2/755566952449310842.png">
