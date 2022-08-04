@@ -6,6 +6,8 @@ module.exports = {
     aliases: ["ping"],
     userPerms: [],
     botPerms: [],
+    enabled: true,
+    nsfw: false,
     run: async (client, message, args) => {
     ////
 
