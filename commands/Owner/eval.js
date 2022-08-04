@@ -8,6 +8,8 @@ module.exports = {
     aliases: ["ev"],
     userPerms: [],
     botPerms: [],
+    enabled: true,
+    nsfw: false,
     run: async (client, message, args) => {
        
         if (message.author.id != OWNER_ID) {
