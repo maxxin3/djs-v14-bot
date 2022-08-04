@@ -31,6 +31,10 @@ client.on("messageCreate", async (message) => {
                 return message.channel.send({ embeds: [embed] });
             }
         }
+       //command enaled thing
+       if(command.enabled === false) {
+      return message.reply('This command is disabled!')
+    }
 
        if (command.userPerms) {
             if (!message.member.permissions.has(PermissionsBitField.resolve(command.userPerms || []))) {
@@ -38,6 +42,13 @@ client.on("messageCreate", async (message) => {
                 return message.channel.send({ embeds: [embed] });
             }
         }
+
+       //nsfw thingy
+    if(command.nsfw === true) {
+      if(message.channel.nsfw === false) {
+        return message.reply('This command is NSFW only, mark the channel as nsfw for this command to work!')
+      }
+    }
 
 
   await command.run(client, message, args);
