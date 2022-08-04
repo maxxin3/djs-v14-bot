@@ -7,6 +7,8 @@ module.exports = {
     aliases: ["em"],
     userPerms: [],
     botPerms: [],
+    enabled: true,
+    nsfw: false,
     run: async (client, message, args) => {
     ////
     const help = new EmbedBuilder()
