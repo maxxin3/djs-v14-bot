@@ -136,3 +136,11 @@ If you find an error or need support, go to my discord server and open a ticket:
  1. [Download](./.github/DOWNLOAD.md)
 
 ---
+# 💝 Credit
+If consider using this Template, make sure to credit me!
+### [Uo#1428](https://discord.com/users/755566952449310842) | [Discord](https://discord.gg/kDAMsmQXdY)
+
+#### Profile
+
+<img align="left" width="100%" style="margin: 0 10px 0 0;" alt=" " src="https://discord.c99.nl/widget/theme-2/784649693363306518.png">
+<img align="left" width="100%" style="margin: 0 10px 0 0;" alt=" " src="https://media.discordapp.net/attachments/877859563016159252/879664980218249216/colour_line2.gif">
