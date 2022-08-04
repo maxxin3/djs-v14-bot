@@ -6,6 +6,8 @@ module.exports = {
     name: "eval",
     description: "eval code",
     aliases: ["ev"],
+    userPerms: [],
+    botPerms: [],
     run: async (client, message, args) => {
        
         if (message.author.id != OWNER_ID) {
